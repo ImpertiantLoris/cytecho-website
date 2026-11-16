@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en" id="top">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cytecho - Enterprise Cybersecurity</title>
+<meta name="description" content="Cytecho — Leader in Cybersecurity Protection & Software for enterprises.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<script src="layout.js"></script>
+
+<main>
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="hero-stripes" aria-hidden="true"></div>
+  <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero-fade" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow eyebrow-lg">Cytecho Signal</p>
+    <h1>Detect. Decide. Defend.</h1>
+    <p class="hero-sub">Meet the AI-driven platform that turns telemetry into action.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary btn-lg" href="#platforms">Explore the platform <svg><use href="#i-arrow"/></svg></a>
+      <a class="link-underline" href="blog.html">Read the blog</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Recommended ============ -->
+<section class="reco">
+  <div class="wrap">
+    <div class="reco-head">
+      <h2 class="eyebrow eyebrow-lg">Recommended</h2>
+      <div class="reco-nav">
+        <button class="round-btn" id="recoPrev" aria-label="Previous"><svg><use href="#i-chev-l"/></svg></button>
+        <button class="round-btn" id="recoNext" aria-label="Next"><svg><use href="#i-chev-r"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="reco-track" id="recoTrack">
+    <a class="reco-card" href="blog.html#frontier-ai-security"><span class="thumb t-aurora"><b>CYTECHO<i>LABS</i></b></span><span class="reco-body"><strong>Security in the era of frontier AI</strong><em>Read the post</em></span></a>
+    <a class="reco-card" href="blog.html#privileged-access-basics"><span class="thumb t-report"></span><span class="reco-body"><strong>Privileged access: getting the basics right</strong><em>Read the post</em></span></a>
+    <a class="reco-card" href="blog.html#virtual-patching-explained"><span class="thumb t-sunset"></span><span class="reco-body"><strong>Close your exposure gap with virtual patching</strong><em>Read the post</em></span></a>
+    <a class="reco-card" href="blog.html#secure-ai-coding"><span class="thumb t-office"></span><span class="reco-body"><strong>Secure AI coding across your business</strong><em>Read the post</em></span></a>
+    <a class="reco-card" href="blog.html#threat-landscape-2026"><span class="thumb t-magma"></span><span class="reco-body"><strong>What we are watching in the 2026 threat landscape</strong><em>Read the post</em></span></a>
+    <a class="reco-card" href="blog.html#agentic-ai-soc"><span class="thumb t-grid"></span><span class="reco-body"><strong>What agentic AI means for your SOC</strong><em>Read the post</em></span></a>
+  </div>
+</section>
+
+<!-- ============ Sticky section nav ============ -->
+<nav class="section-nav" id="sectionNav" aria-label="On this page">
+  <div class="wrap section-nav-inner">
+    <a href="#why" data-spy="why">Why Cytecho?</a>
+    <a href="#platforms" data-spy="platforms">Platforms</a>
+    <a href="#solutions" data-spy="solutions">Solutions</a>
+    <a href="#proven" data-spy="proven">Proven Success</a>
+    <a href="#engage" data-spy="engage">Engage with Us</a>
+  </div>
+</nav>
+
+<!-- ============ AI world ============ -->
+<section class="ai" id="why">
+  <div class="ai-hatch" aria-hidden="true"></div>
+  <div class="ai-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <h2 class="display">A new <span class="accent">AI era</span> is here</h2>
+
+    <div class="good">
+      <div class="good-copy">
+        <p class="eyebrow accent">The good news</p>
+        <h3 class="h-lg">AI is rapidly transforming your organization</h3>
+      </div>
+      <div class="rings">
+        <figure class="ring" data-pct="78">
+          <div class="ring-art">
+            <svg viewBox="0 0 120 120"><circle class="ring-track" cx="60" cy="60" r="52"/><circle class="ring-fill" cx="60" cy="60" r="52"/></svg>
+            <span class="ring-num"><b data-count="78">78</b> %</span>
+          </div>
+          <figcaption><strong>~1.5X growth</strong><span>in usage in last<br>12 months</span></figcaption>
+        </figure>
+        <figure class="ring" data-pct="94">
+          <div class="ring-art">
+            <svg viewBox="0 0 120 120"><circle class="ring-track" cx="60" cy="60" r="52"/><circle class="ring-fill" cx="60" cy="60" r="52"/></svg>
+            <span class="ring-num"><b data-count="94">94</b> %</span>
+          </div>
+          <figcaption><strong>development</strong><span>enterprises using gen AI<br>software</span></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="bad">
+      <div class="bars">
+        <div class="bar-row" style="--p:56"><p>Increase in exploited zero days (YoY)</p><div class="bar-line"><span class="bar"></span><b><span data-count="56">56</span>%</b></div></div>
+        <div class="bar-row" style="--p:73"><p>Increase in ransomware attacks (YoY)</p><div class="bar-line"><span class="bar"></span><b><span data-count="73">73</span>%</b></div></div>
+        <div class="bar-row" style="--p:56"><p>Increase in data breaches and leaks (YoY)</p><div class="bar-line"><span class="bar"></span><b><span data-count="56">56</span>%</b></div></div>
+      </div>
+      <div class="bad-copy">
+        <p class="eyebrow accent">The bad news</p>
+        <h3 class="h-lg">Attackers are scaling just as fast.</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Why ============ -->
+<section class="why">
+  <div class="dots" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="why-head">
+      <div>
+        <p class="eyebrow accent">Why Cytecho</p>
+        <h2 class="h-xl">One platform lets you build on AI-ready infrastructure. <span class="accent">And AI-powered services keep everything secure.</span></h2>
+      </div>
+      <a class="btn btn-outline-accent" href="#platforms">See our platform approach <svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="why-cards">
+      <article class="stat-card">
+        <p class="stat-num"><span data-count="90">90</span> %</p>
+        <h3>reduction in MTTR</h3>
+        <p>Drive innovation and digital transformation with AI.</p>
+      </article>
+      <article class="stat-card">
+        <p class="stat-num"><small>up to</small> <span data-count="30.9" data-dec="1">30.9</span> B</p>
+        <h3>inline attacks blocked per day</h3>
+        <p>Monitor, analyze and prevent sophisticated threats in real time with less complexity, so your organization can grow securely.</p>
+      </article>
+      <article class="stat-card">
+        <p class="stat-num"><span data-count="480">480</span> B</p>
+        <h3>endpoints scanned daily</h3>
+        <p>Get better, faster security with an integrated suite of battle-tested, AI-driven products.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Platforms ============ -->
+<section class="platforms" id="platforms">
+  <div class="plat-art" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="rule" aria-hidden="true"></div>
+    <h2 class="h-xl plat-heading">Introducing the platforms, powered by Cytecho AI</h2>
+    <div class="plat-tabs" id="platTabs" role="tablist"></div>
+    <div class="plat-panel" id="platPanel" role="tabpanel"></div>
+  </div>
+</section>
+
+<!-- ============ Bento ============ -->
+<section class="bento-sec">
+  <div class="wrap">
+    <h2 class="h-xl"><span class="accent">Built to defend at</span> speed and scale.</h2>
+    <p class="stamp"><svg><use href="#i-clock"/></svg> Daily data as of <span id="stamp">today</span> at 7AM PT</p>
+
+    <div class="bento">
+      <article class="tile tile-wide">
+        <svg class="circuit" viewBox="0 0 800 430" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          </defs>
+          <g class="traces">
+            <path d="M0 70h250l60-40h490M0 100h270l60-40h470M0 130h290l60-40h450M0 160h310l40-28h450"/>
+            <path d="M0 330h330l70 60h400M0 360h300l70 60h430M0 300h360l70 60h370M130 430l60-50h180"/>
+            <path d="M520 430l-80-70H330M560 430l-90-80"/>
+          </g>
+          <g class="hot" filter="url(#glow)">
+            <path d="M170 220h250l60-105h145"/>
+            <path d="M170 250h250l60 60h145"/>
+            <path d="M665 150v130"/>
+          </g>
+          <g class="nodes">
+            <rect x="85" y="185" width="84" height="84" rx="18"/><rect x="623" y="70" width="84" height="84" rx="18"/><rect x="623" y="270" width="84" height="84" rx="18"/>
+          </g>
+          <g class="glyphs" filter="url(#glow)">
+            <path d="M108 236a11 11 0 0 1 3-21 15 15 0 0 1 29 2 10 10 0 0 1 2 19z"/><circle cx="127" cy="230" r="6"/><path d="M131 235l5 5"/>
+            <path d="M665 92l18 7v13c0 12-8 20-18 24-10-4-18-12-18-24V99z"/><path d="M665 101l10 4v8c0 7-4 12-10 15-6-3-10-8-10-15v-8z" stroke-dasharray="3 3"/>
+            <path d="M650 320a9 9 0 0 1 2-17 13 13 0 0 1 25 1 9 9 0 0 1 5 16z"/><rect x="655" y="316" width="14" height="11" rx="2"/><path d="M658 316v-4a4 4 0 0 1 8 0v4M676 312h10l-3-3M686 316h-10l3 3"/>
+          </g>
+        </svg>
+        <div class="tile-foot"><p class="tile-num"><span data-count="1">1</span> T</p><p>Cloud Events Processed</p></div>
+      </article>
+
+      <article class="tile">
+        <p class="eyebrow tile-eyebrow">Exploits detected</p>
+        <div class="exploits">
+          <ul>
+            <li><i>⚑</i><span><b>Heartbleed</b>Severely impacts enterprise servers</span></li>
+            <li><i>⬢</i><span><b>Spectre and Meltdown</b>Hardware-based vulnerabilities</span></li>
+            <li><i>◈</i><span><b>EternalBlue</b>Code exploiting a vulnerability</span></li>
+            <li><i>▣</i><span><b>ZeroLogon</b>Elevation of privilege vulnerability</span></li>
+            <li><i>◆</i><span><b>Log4Shell</b>Remote code execution in logging</span></li>
+            <li><i>⬟</i><span><b>Shellshock</b>Command injection through the shell</span></li>
+          </ul>
+        </div>
+        <div class="tile-foot"><p class="tile-num"><span data-count="5.65" data-dec="2">5.65</span> K</p><p>Exploit Attempts Detected</p></div>
+      </article>
+
+      <article class="tile tile-rain">
+        <div class="rain" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="shield-line" aria-hidden="true"><span></span><span class="core"><svg><use href="#i-mark"/></svg></span><span></span></div>
+        <div class="tile-foot"><p class="tile-num"><span data-count="689.23" data-dec="2">689.23</span> K</p><p>Malware Executions Blocked</p></div>
+      </article>
+
+      <article class="tile tile-waves">
+        <canvas id="tileWaves" aria-hidden="true"></canvas>
+        <div class="tile-foot"><p class="tile-num"><span data-count="6.59" data-dec="2">6.59</span> B</p><p>New Unique Objects Analyzed</p></div>
+      </article>
+
+      <article class="tile">
+        <div class="scan" aria-hidden="true">
+          <svg viewBox="0 0 120 150">
+            <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+              <path d="M38 118V70a22 22 0 0 1 44 0v48"/><path d="M46 124V72a14 14 0 0 1 28 0v52"/><path d="M54 128V74a6 6 0 0 1 12 0v54"/>
+              <path d="M30 108V68a30 30 0 0 1 60 0v40"/><path d="M60 82v50"/>
+              <path d="M30 60h-8M30 84h-10M90 60h8M90 92h10M38 126h-8M82 126h8"/>
+            </g>
+            <g fill="currentColor"><circle cx="20" cy="84" r="2.6"/><circle cx="100" cy="92" r="2.6"/><circle cx="22" cy="60" r="2.6"/><circle cx="98" cy="60" r="2.6"/><circle cx="60" cy="134" r="2.6"/></g>
+          </svg>
+          <b class="scan-bar"></b>
+        </div>
+        <div class="tile-foot"><p class="tile-num"><span data-count="19.46" data-dec="2">19.46</span> M</p><p>New Unique Attack Objects Identified</p></div>
+      </article>
+
+      <article class="tile tile-wide tile-code">
+        <div class="code-win" aria-hidden="true"><pre id="code"></pre></div>
+        <div class="tile-foot"><p class="tile-num"><span data-count="11.3" data-dec="1">11.3</span> B</p><p>Attacks Prevented Inline</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Services ============ -->
+<section class="services" id="services">
+  <div class="svc-art" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="rule" aria-hidden="true"></div>
+    <h2 class="h-xl">Intel-led.<br>Ready to respond.</h2>
+    <div class="svc-grid">
+      <div class="svc-copy">
+        <p class="eyebrow accent">Services</p>
+        <h3 class="h-lg">Threat Intel &amp;<br>Incident Response</h3>
+        <p class="lead">Our threat researchers, incident responders and security consultants guide you with a threat-informed approach before, during and after an incident.</p>
+        <div class="mini-stats">
+          <div><b>1 K+</b><span>Matters per year</span></div>
+          <div><b>24 / 7 / 365</b><span>Incident response</span></div>
+        </div>
+      </div>
+      <div class="svc-side">
+        <a class="btn btn-outline-accent" href="contact.html">Talk to our response team <svg><use href="#i-arrow"/></svg></a>
+        <div class="svc-tiles">
+          <div><b>200+</b><span>threat researchers</span></div>
+          <div><b>30 M</b><span>malware samples analyzed per day</span></div>
+          <div><b>1 K+</b><span>incident response engagements a year</span></div>
+          <div><b>150+</b><span>trusted partner of law firms</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="eyebrow center trusted-label">Trusted by the best</p>
+    <div class="logo-row">
+      <span class="logo l-ital">Calder-Pryce</span><span class="logo l-light">Granthaven</span><span class="logo l-heavy l-ital">Investa</span><span class="logo l-heavy">Sabline</span><span class="logo l-box">AXT</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Solutions ============ -->
+<section class="solutions" id="solutions">
+  <div class="sol-art" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="wrap sol-inner">
+    <div class="sol-left">
+      <div class="rule" aria-hidden="true"></div>
+      <h2 class="h-xl">Secure everything,<br>everywhere —<br>with less complexity.</h2>
+      <ul class="sol-list" id="solList"></ul>
+    </div>
+    <div class="sol-links" id="solLinks"></div>
+  </div>
+</section>
+
+<!-- ============ Proven success ============ -->
+<section class="proven" id="proven">
+  <div class="wrap">
+    <h2 class="h-lg center">Trusted by <span class="accent">the best</span></h2>
+    <div class="logo-grid">
+      <span class="logo l-sm">Resolute Life</span><span class="logo l-heavy">Brighter</span><span class="logo l-serif">d·sh</span><span class="logo l-cloud">cloudforce</span>
+      <span class="logo l-serif l-xs">CAESURA<br>ENTERTAINMENT</span><span class="logo l-heavy l-big">flux.</span><span class="logo">AutoNova</span><span class="logo l-heavy l-ital">Aldon's</span>
+      <span class="logo l-ital">Pharex</span><span class="logo l-sm l-bold">OMNIVersal</span><span class="logo l-big">◣slr</span><span class="logo l-box">BINGO</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Engage ============ -->
+<section class="engage" id="engage">
+  <div class="wrap">
+    <div class="rule" aria-hidden="true"></div>
+    <h2 class="h-xl">With you today.<br>Ready for <span class="accent">what’s next.</span></h2>
+    <div class="pill-tabs" id="engageTabs" role="tablist"></div>
+    <div class="engage-grid" id="engageGrid"></div>
+  </div>
+  <div class="engage-hatch" aria-hidden="true"></div>
+</section>
+
+<!-- ============ Call to action ============ -->
+<section class="cta-band">
+  <div class="wrap cta-inner">
+    <h2 class="h-lg">Talk to a Cytecho expert about securing what’s next.</h2>
+    <div class="cta-actions">
+      <a class="btn btn-primary btn-lg" href="contact.html">Contact us <svg><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-outline-light btn-lg" href="under-attack.html">Under attack?</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

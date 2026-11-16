@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" id="top">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Under attack? — Cytecho</title>
+<meta name="description" content="Under attack? Message Cytecho urgently at info@cytecho.net.">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="subpage">
+<script src="layout.js"></script>
+
+<main>
+  <section class="page-hero alert-hero">
+    <div class="wrap">
+      <p class="eyebrow accent"><svg class="eyebrow-ico" aria-hidden="true"><use href="#i-alert"/></svg> Incident response</p>
+      <h1 class="display">Under attack?</h1>
+      <p class="page-lead">Message us urgently at</p>
+      <a class="big-link" href="mailto:info@cytecho.net?subject=URGENT%20%E2%80%94%20Under%20attack">info@cytecho.net</a>
+      <div class="alert-actions">
+        <a class="btn btn-primary btn-lg" href="mailto:info@cytecho.net?subject=URGENT%20%E2%80%94%20Under%20attack">Email us now <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-outline-light btn-lg" href="tel:+447311113990"><svg aria-hidden="true"><use href="#i-phone"/></svg> Call +44 7311 113990</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-body">
+    <div class="wrap">
+      <h2 class="h-lg">What to do right now</h2>
+      <ol class="steps">
+        <li><b>Disconnect, do not switch off.</b><span>Take affected devices off the network, but leave them powered on so evidence in memory is kept.</span></li>
+        <li><b>Keep the evidence.</b><span>Do not wipe, reinstall or delete anything yet. Save ransom notes, suspicious emails and logs.</span></li>
+        <li><b>Change access from a clean device.</b><span>Reset passwords for affected accounts from a machine you trust, and sign out other sessions.</span></li>
+        <li><b>Write down what you know.</b><span>What you saw, when it started and which systems are affected. It makes our first conversation much faster.</span></li>
+      </ol>
+
+      <div class="contact-grid alert-grid">
+        <form class="form card-form" data-mailto data-subject="URGENT — Under attack">
+          <h2 class="h-lg">Tell us what is happening</h2>
+          <div class="form-row">
+            <div class="field"><label for="u-name">Name</label><input id="u-name" name="Name" autocomplete="name" required></div>
+            <div class="field"><label for="u-org">Organisation</label><input id="u-org" name="Organisation" autocomplete="organization" required></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="u-email">Email</label><input id="u-email" name="Email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="u-phone">Phone we can reach you on</label><input id="u-phone" name="Phone" type="tel" autocomplete="tel" required></div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="u-type">Type of incident</label>
+              <select id="u-type" name="Incident type">
+                <option>Ransomware or extortion</option>
+                <option>Email account compromise</option>
+                <option>Data breach or leak</option>
+                <option>Unauthorised access</option>
+                <option>Malware infection</option>
+                <option>Denial of service</option>
+                <option>Not sure</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="u-state">Is it still happening?</label>
+              <select id="u-state" name="Still ongoing">
+                <option>Yes, it is ongoing</option>
+                <option>It seems to have stopped</option>
+                <option>Not sure</option>
+              </select>
+            </div>
+          </div>
+          <div class="field"><label for="u-msg">What have you seen so far?</label><textarea id="u-msg" name="Details" required placeholder="What happened, when it started, which systems are affected"></textarea></div>
+          <button class="btn btn-primary btn-lg" type="submit">Send urgent message <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          <p class="form-note">This opens your email app with an urgent message addressed to info@cytecho.net. If email is not working for you, call us instead.</p>
+          <p class="form-legal">We use your details only to respond to this incident. See our <a href="privacy.html">privacy policy</a>.</p>
+        </form>
+
+        <div class="info-list">
+          <a class="info-card" href="mailto:info@cytecho.net?subject=URGENT%20%E2%80%94%20Under%20attack">
+            <span class="info-ico"><svg aria-hidden="true"><use href="#i-mail"/></svg></span>
+            <span><small>Urgent email</small><b>info@cytecho.net</b></span>
+          </a>
+          <a class="info-card" href="tel:+447311113990">
+            <span class="info-ico"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
+            <span><small>Phone</small><b>+44 7311 113990</b></span>
+          </a>
+          <div class="info-card">
+            <span class="info-ico"><svg aria-hidden="true"><use href="#i-pin"/></svg></span>
+            <span><small>Based in</small><b>Haverfordwest, Wales, United Kingdom</b></span>
+          </div>
+          <p class="info-foot">Not an emergency? Use the <a href="contact.html">contact page</a> instead.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
